@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MediumActivity">
+
+
+    <Button
+        android:id="@+id/feesList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/userPassword"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Fees List"
+        android:onClick="Fees"
+        android:textSize="18sp"
+        android:background="#FF9700"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/userPassword"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Chat"
+        android:onClick="Chat"
+        android:textSize="18sp"
+        android:background="#FF9700"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"/>
+
+
+
+</LinearLayout>

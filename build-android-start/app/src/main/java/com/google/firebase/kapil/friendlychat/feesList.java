@@ -6,10 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import com.google.firebase.kapil.friendlychat.modelclass.StudentData;
 
 
-import com.google.firebase.kapil.friendlychat.adapter.Adapter;
 
 import java.util.ArrayList;
 import java.util.List;
